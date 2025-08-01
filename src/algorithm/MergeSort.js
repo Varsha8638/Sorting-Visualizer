@@ -1,5 +1,5 @@
 
-export const MergeSort = (array) => {
+export const mergeSort = (array) => {
     const animations = [];
     if (array.length <= 1) return animations;
   

@@ -102,9 +102,22 @@
     margin-top: -20px;
     
   }
-  label h1{
-    font-size: 30px;
-    margin-top: -10px;
+  label h2{
+    background: linear-gradient(
+    -45deg,
+    rgb(238,199,213),
+    rgb(220,180,220),
+    rgb(152,150,233),
+    rgb(188,168,240),
+    rgb(238,199,213)
+  );
+  font-size: 30px;
+  margin-top: -25px;
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: wave-gradient 1s ease infinite;
 
   }
   

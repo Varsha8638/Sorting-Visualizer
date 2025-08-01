@@ -15,15 +15,18 @@ function Control({ handleNewArrayGenrate, setSpeed, isSorting, handleSorting, us
                 Reset
             </button>
             <select className='neumorphism-dropdown' value={selectedSorting} onChange={handleSorting}>
-                <option value=''>Select Sorting</option>
-                <option value='bubbleSort'>Bubble Sorting</option>
+                <option value=''>Select Sorting Algo</option>
+                <option value='bubbleSort'>Bubble Sort</option>
                 <option value="mergeSort">Merge Sort</option>
-                <option value="selectionSort">SelectionSort Sort</option>
+                <option value="selectionSort">Selection Sort</option>
+                <option value='insertionSort'>Insertion Sort</option>
+                <option value='quickSort'>Quick Sort</option>
+
             </select>
             <label>
-                <h1>
+                <h2>
                     Speed
-                </h1>
+                </h2>
                 <input
                     type="range"
                     min="10"
